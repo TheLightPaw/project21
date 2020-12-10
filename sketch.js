@@ -1,4 +1,4 @@
-var bullet, wall, thinkness;
+var bullet, wall, thickness;
 var speed, weight;
 
 function setup() {
@@ -52,7 +52,7 @@ function hasCollided(Lbullet, lwall) {
                 wall.shapeColor=color(255,0,0)
         }
         if (damage < 10) {
-            wall/ShapeColor=color(0,255,0)
+            wall.shapeColor=color(0,255,0)
         }
     }
     return false
